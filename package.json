@@ -1,0 +1,17 @@
+{
+  "name": "sunrun-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Noel Portugal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sunrun-node": "^1.0.2",
+    "twilio": "^3.67.1"
+  }
+}
