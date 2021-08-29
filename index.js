@@ -19,8 +19,8 @@ app.get('/', async (req, res) => {
   if (data.status === 'error'){
     client.messages.create({
      body: data.data,
-     from: '+18089004433',
-     to: process.env.phone
+     from: process.env.FROM,
+     to: process.env.PHONE
    })
   }
   res.send(data)
